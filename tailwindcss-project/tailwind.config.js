@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-blue': '#8cc1fd',
+        'custom-blue-2' : '#044b86',
+        'custom-beige' : '#ffdb6d',
+        'custom-blue-3' : '#33A9FF',
+        'custom-black' : '#022644;',
+        'custom-blue' : '#0065b8',
     },
   },
   plugins: [],
