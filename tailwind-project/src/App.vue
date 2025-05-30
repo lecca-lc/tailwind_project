@@ -17,7 +17,7 @@ import { Copyright } from 'lucide-vue-next';
 <!-- first section -->
 
   <article class="bg-blue  min-h-screen bg-cover bg-center text-white">  
-      <div class="absolute inset-0 bg-white/5"></div>
+      <div class="absolute -inset-full bg-white/5 "></div>
       <main className="flex justify-between items-center ml-64 pt-20">
 
       <div className="flex ml-12">
