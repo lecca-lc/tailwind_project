@@ -12,12 +12,12 @@ import { Youtube } from 'lucide-vue-next';
 import { Copyright } from 'lucide-vue-next';
 </script>
 
-<template>
+<template >
 
 <!-- first section -->
 
-  <article class="bg-blue  min-h-screen bg-cover bg-center text-white">  
-      <div class="absolute -inset-full bg-white/5 "></div>
+  <article class="bg-blue w-full overflow-x-clip  min-h-screen bg-cover bg-center text-white relative" >  
+      <div class="absolute inset-0 bg-white/5 "></div>
       <main className="flex justify-between items-center ml-64 pt-20">
 
       <div className="flex ml-12">
@@ -28,10 +28,10 @@ import { Copyright } from 'lucide-vue-next';
       
 
 
-        <nav className="flex items-center justify-center space-x-20 mr-52">
-          <ul class="flex space-x-7 text-[17px] font-medium mb-2">
+        <nav className="flex items-center justify-center space-x-20 mr-52 relative">
+          <ul class="flex space-x-7 text-[17px] font-medium mb-2 ">
 
-            <li><a href="home" class="hover:text-purple-400">Home</a></li>
+            <li class=""><a href="home" class="hover:text-purple-400 ">Home</a></li>
 
             <li class="relative group cursor-pointer">
               <div class="flex items-center hover:text-purple-400 ">
@@ -59,7 +59,7 @@ import { Copyright } from 'lucide-vue-next';
               </ul>
             </li>
             
-            <li><a href="contact" class="hover:text-purple-400">Contact us</a></li>
+            <li><a href="contact" class="hover:text-purple-400 ">Contact us</a></li>
 
           </ul>
         
@@ -94,13 +94,13 @@ import { Copyright } from 'lucide-vue-next';
 
           </p> -->
 
-    </main>
+    </main >
     <div class="text-center text-[80px] leading-[90px] mt-20 font-bold tracking-tight">
       <p> Forging the Future <br/> of Retail, Wholesale & <br/> Distribution. </p>
     </div>
 
     <p class="text-center mt-[40px] text-2xl leading-[37px]">RetailPay provides a digital end-to-end platform that connects all members<br/> of the supply chain ecosystem for maximum value</p>
-    <button className="bg-custom-blue-3 ml-[44%] mt-14 py-5 rounded-full px-16 text-[20px] font-bold hover:bg-purple-400">
+    <button className="relative bg-custom-blue-3 ml-[44%] mt-14 py-5 rounded-full px-16 text-[20px] font-bold hover:bg-purple-400">
       Get Started
     </button>
 
