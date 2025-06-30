@@ -184,6 +184,7 @@
     </div>
 
     <div class="flex lg:flex-row flex-col justify-center items-center text-white lg:space-x-12 space-y-5">
+      
       <div class=" border bg-custom-blue-2 rounded-2xl lg:p-8 p-4 shadow-2xl lg:pr-6 lg:m-0 m-3 max-w-[700px]">
        
         <img src="/public/shield-icon.png" alt="" class="lg:w-[90px] lg:h-auto">
