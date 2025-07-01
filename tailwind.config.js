@@ -13,6 +13,13 @@ export default {
         'custom-black' : '#022644;',
         'custom-blue' : '#0065b8',
     },
+      gridTemplateColumns: {
+        '13': 'repeat(13, minmax(0, 1fr))',
+        '14': 'repeat(14, minmax(0, 1fr))',
+        '16': 'repeat(16, minmax(0, 1fr))',
+        '20': 'repeat(20, minmax(0, 1fr))',
+        '24': 'repeat(24, minmax(0, 1fr))',
+    },
   },
   plugins: [],
 }
