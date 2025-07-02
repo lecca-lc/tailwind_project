@@ -11,9 +11,9 @@
     ]"
   >
    
-    <div class="lg:grid lg:grid-cols-12 gap-5 flex justify-between lg:pt-12 lg:pb-4 p-4 lg:p-0 ">
+    <div class="lg:grid lg:grid-cols-16 gap-5 flex justify-between lg:pt-12 lg:pb-4 p-4 lg:p-0 ">
       <!-- Logo -->
-      <div class="flex lg:col-span-4 lg:justify-end items-center">
+      <div class="flex lg:col-span-5 lg:justify-end items-center">
         <img
           :src="isScrolled ? '/public/r-icon2.png' : '/public/r-icon.png'"
           alt="RetailPay Logo"
@@ -53,10 +53,10 @@
       </button>
 
       <!-- Desktop Nav -->
-      <nav class="hidden lg:col-span-8 lg:flex items-center space-x-20 relative">
-        <div class="lg:grid lg:w-11/12 lg:grid-cols-8 gap-10 ">
+      <nav class="hidden lg:col-span-11 lg:flex items-center space-x-20 relative">
+        <div class="lg:grid lg:w-11/12 lg:grid-cols-8 gap-8 ">
         <div class="lg:col-span-5 mx-auto items-center lg:pt-6">
-        <ul class="flex space-x-7 text-[15px] font-medium lg:mb-2 ">
+        <ul class="flex space-x-7 text-[16px] font-medium lg:mb-2 ">
           <li><a href="home" :class="isScrolled ? 'text-black' : 'text-white'" class="hover:text-purple-400">Home</a></li>
 
           <li class="relative group cursor-pointer">
