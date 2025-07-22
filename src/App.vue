@@ -895,7 +895,7 @@
 
       <div class="lg:-translate-y-96 -translate-y-[150px] lg:pt-40">
         <section
-          class="flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-center items-cente lg:pt-40 space-x-16"
+          class="flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-center space-x-16"
         >
           <div class="bg-custom-black lg:p-[30px] p-6 rounded-xl lg:m-0 ml-8 mr-8 mb-8 h-full">
             <figure class="flex">
