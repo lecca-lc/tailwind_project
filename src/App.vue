@@ -10,17 +10,17 @@
       ]"
     >
       <div
-        class="flex justify-between lg:grid lg:grid-cols-20 lg:pt-[38px] lg:pb-4 p-4 lg:p-0 lg:w-full"
+        class="flex justify-between lg:grid lg:grid-cols-20 lg:pt-[38px] lg:pb-4 pt-4 pb-2 lg:p-0 lg:w-full"
       >
         <!-- Logo -->
-        <div class="flex lg:col-span-6 lg:justify-end items-center">
+        <div class="flex lg:col-span-6 lg:justify-end items-center lg:space-x-2 space-x-1">
           <img
             :src="isScrolled ? '/public/r-icon2.png' : '/public/r-icon.png'"
             alt="RetailPay Logo"
-            class="w-14 h-14 transition-all duration-300"
+            class="lg:w-12 lg:h-12 h-10 w-10 transition-all duration-300"
           />
           <h1
-            class="text-2xl lg:text-[35px] font-bold mt-4 ml-2 lg:mb-2"
+            class="text-3xl lg:text-[35px] font-bold mt-2 lg:mb-2"
             :class="isScrolled ? 'text-black' : 'text-white'"
           >
             RetailPay
@@ -155,7 +155,7 @@
       <!-- Mobile Nav -->
       <div
         v-if="menuOpen"
-        class="lg:hidden mt-2 space-y-2 bg-white rounded-3xl shadow-lg p-6 text-black"
+        class="lg:hidden mt-2 space-y-2 bg-white rounded-3xl text-[12px] shadow-lg p-6 text-black"
       >
         <a href="home" class="block mb-2.5">Home</a>
 
@@ -194,7 +194,7 @@
     <div class="lg:h-32 h-12"></div>
 
     <div
-      class="text-center lg:text-[60px] text-[33px] lg:leading-[116%] leading-[40px] mt-[47px] font-[800] font-sans tracking-normal"
+      class="text-center lg:text-[60px] text-[43px] lg:leading-[116%] leading-[50px] mt-[47px] font-[800] font-sans tracking-normal"
     >
       <p>
         Forging the Future <br />
@@ -205,7 +205,7 @@
 
     <div class="flex flex-col items-center justify-center">
       <p
-        class="lg:max-w-[700px] text-center mt-[30px] lg:text-[21px] text-xl lg:leading-[132%] font-[300]"
+        class="lg:max-w-[700px] text-center mt-[30px] lg:text-[21px] text-[17px] lg:leading-[132%] font-[300]"
       >
         RetailPay provides a digital end-to-end platform that connects all
         members of the supply chain ecosystem for maximum value
@@ -222,7 +222,7 @@
         class="border flex lg:flex-row items-center lg:mt-[78px] rounded-t-3xl lg:max-w-[1400px] backdrop-blur-sm bg-blue-2 bg-cover bg-center border-white/80 lg:mx-0 mx-5 mt-14 flex-col"
       >
         <div
-          class="text-white lg:text-[33px] lg:leading-[53px] font-[300] lg:p-0 pl-0 lg:pt-0 pt-4 text-[25px] w-[55%] lg:w-[40%] leading-[132%] lg:mt-[136px] lg:mb-[128px] lg:translate-x-32 "
+          class="text-white lg:text-[33px] lg:leading-[53px] font-[300] lg:p-0 pl-0 lg:pt-0 pt-4 text-[21px] w-[55%] lg:w-[40%] leading-[132%] lg:mt-[136px] lg:mb-[128px] lg:translate-x-32 "
         >
           <p class="text-center lg:text-left lg:min-w-[490px] ">
             Our product, <strong class="font-[600]">Bizwiz</strong> is a
@@ -251,35 +251,35 @@
   <article>
     <section class="flex justify-center items-center">
       <div
-        class="lg:border-2 lg:shadow-lg flex lg:flex-row flex-col space-y-4 lg:space-y-0 justify-center items-center lg:space-x-56 space-x-10 rounded-b-3xl lg:p-8 p-4 lg:min-w-[1400px]"
+        class="lg:border-2 lg:shadow-lg flex lg:flex-row flex-col justify-center items-center lg:space-x-56 rounded-b-3xl lg:p-8 p-4 lg:min-w-[1400px]"
       >
-        <p class="leading-[50px]">
+        <p class="lg:leading-[50px] text-center lg:mb-0 mb-4">
           <span
-            class="lg:text-[60px] text-[60px] font-bold text-custom-blue-2 "
+            class="lg:text-[60px] text-[55px] font-bold text-custom-blue-2 "
             >100K+</span
           ><br />
           <code
-            class="text-custom-blue-2 lg:text-[20px] text-[20px] lg:ml-10 ml-12"
+            class="text-custom-blue-2 lg:text-[20px] text-[17px] "
             >Clients</code
           >
         </p>
-        <p class="leading-[50px]">
+        <p class="lg:leading-[50px] text-center pb-4 lg:pb-0">
           <span
-            class="lg:text-[60px] text-[60px] font-bold text-custom-blue-2 "
+            class="lg:text-[60px] text-[55px] font-bold text-custom-blue-2 "
             >40M + USD</span
           ><br />
           <code
-            class="text-custom-blue-2 lg:text-[20px] text-[20px] lg:ml-12 ml-4"
+            class="text-custom-blue-2 lg:text-[20px] text-[17px]  "
             >Turnover per month</code
           >
         </p>
-        <p class="leading-[50px]">
+        <p class="lg:leading-[50px] text-center ">
           <span
-            class="lg:text-[60px] text-[60px] font-bold text-custom-blue-2 "
+            class="lg:text-[60px] text-[55px] font-bold text-custom-blue-2 "
             >15+</span
           ><br />
           <code
-            class="text-custom-blue-2 lg:text-[20px] text-[20px] lg:ml-2 lg:mr-0 mr-2"
+            class="text-custom-blue-2 lg:text-[20px] text-[17px]"
             >Counties</code
           >
         </p>
@@ -287,7 +287,7 @@
     </section>
 
     <div
-      class="flex lg:flex-row flex-col lg:p-0 lg:mb-[55px] mb-20 p-4 lg:mt-[103px] lg:ml-[380px] "
+      class="flex lg:flex-row flex-col lg:p-0 lg:mb-[55px] mb-16 p-4 lg:mt-[103px] mt-8 lg:ml-[380px] text-center lg:text-left "
     >
       <p
         class="lg:max-w-[450px] lg:text-[45px] text-[28px] font-[600] lg:mb-0 mb-4 lg:leading-[106%] lg:tracking-tight"
@@ -296,7 +296,7 @@
       </p>
 
       <p
-        class="text-center lg:text-left lg:max-w-[400px] max-w-[620px] lg:text-[24px] text-xl tracking-[1px] leading-[40px] lg:leading-[139%] font-[400] lg:ml-[117px]"
+        class="lg:max-w-[400px] max-w-[620px] lg:text-[24px] text-[17px] tracking-[1px] leading-[40px] lg:leading-[139%] font-[400] lg:ml-[117px]"
       >
         The RetailPay <strong>Bizwiz</strong> Suite comprises of multiple
         software organs that assist businesses in their day-to-day functions.
@@ -317,32 +317,32 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0">Bizwiz ERP</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] font-[400]"
+          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 text-[14px] lg:text-[14px] font-[400] lg:mr-[36px]"
         >
           Streamline your operations and boost productivity with our intuitive
           ERP system, tailored for distributors, wholesalers and reatilers
         </p>
         <button
-          class="lg:mt-[30px] lg:text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[25px] lg:p-0 p-2  flex lg:hover:bg-white/30 "
+          class="lg:mt-[30px] lg:text-[12px] text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[25px] lg:p-0 p-2  flex justify-between w-[95%] lg:hover:bg-white/30 "
         >
-        <span class="lg:py-[10px] lg:pr-40">Learn more</span>
-          <span class="lg:pt-[8px] lg:m-0 lg:pr-2">
-            <svg
-              width="20"
-              height="24"
-              viewBox="0 0 20 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7.63281 18L12.3875 12L7.63281 6"
-                stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
+          <span class="lg:py-[10px] py-1 pl-2 lg:pl-0 ">Learn more</span>
+            <span class="lg:pt-[8px] lg:m-0 lg:pr-2 ">
+              <svg
+                width="20"
+                height="24"
+                viewBox="0 0 20 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.63281 18L12.3875 12L7.63281 6"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
         </button>
       </div>
 
@@ -357,14 +357,14 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0">Bizwiz POS</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] font-[400]"
+          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] text-[14px] font-[400] lg:mr-[36px]"
         >
           Transform your retail experience with our sleek and efficient POS system, designed to streamline transactions and enhance customer interactions.
         </p>
         <button
-          class="lg:mt-[30px] lg:text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[25px] lg:p-0 p-2  flex lg:hover:bg-white/30 "
+          class="lg:mt-[30px] lg:text-[12px] text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[25px] lg:p-0 p-2  flex justify-between w-[95%] lg:hover:bg-white/30 "
         >
-        <span class="lg:py-[10px] lg:pr-40">Learn more</span>
+        <span class="lg:py-[10px] py-1 pl-2 lg:pl-0 ">Learn more</span>
           <span class="lg:pt-[8px] lg:m-0 lg:pr-2">
             <svg
               width="20"
@@ -396,14 +396,14 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0">Bizwiz Supplier Portal</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] font-[400]"
+          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] text-[14px] font-[400] lg:mr-[36px]"
         >
           Empower your suppliers with our intuitive portal, simplifying communication, streamlining orders, and fostering stronger partnerships.
         </p>
         <button
-          class="lg:mt-[30px] lg:text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[25px] lg:p-0 p-2  flex lg:hover:bg-white/30 "
+          class="lg:mt-[30px] lg:text-[12px] text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[25px] lg:p-0 p-2  flex justify-between w-[95%] lg:hover:bg-white/30 "
         >
-        <span class="lg:py-[10px] lg:pr-40">Learn more</span>
+        <span class="lg:py-[10px] py-1 pl-2 lg:pl-0 ">Learn more</span>
           <span class="lg:pt-[8px] lg:m-0 lg:pr-2">
             <svg
               width="20"
@@ -435,14 +435,14 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0 lg:max-w-[300px]">Bizwiz Order-taking Delivery App</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[270px] lg:mt-[26px] lg:p-0 pt-4 lg:text-[14px] font-[400]"
+          class="max-w-[1000px] lg:max-w-[270px] lg:mt-[26px] lg:p-0 pt-4 lg:text-[14px] text-[14px] font-[400] lg:mr-[30px]"
         >
           Elevate your distribution business with our user-friendly app, empowering you to manage orders, track inventory, and optimise logistics with ease.
         </p>
         <button
-          class="lg:mt-[22px] lg:text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[20px] lg:p-0 p-2  flex lg:hover:bg-white/30 "
+          class="lg:mt-[22px] lg:text-[12px] text-[12px] mt-6 border rounded-full bg-white/20 border-white/0 lg:pl-[20px] lg:mr-[20px] lg:mb-[20px] lg:p-0 p-2  flex justify-between w-[95%] lg:hover:bg-white/30 "
         >
-        <span class="lg:py-[10px] lg:pr-40">Learn more</span>
+        <span class="lg:py-[10px] py-1 pl-2 lg:pl-0 ">Learn more</span>
           <span class="lg:pt-[8px] lg:m-0 lg:pr-2">
             <svg
               width="20"
@@ -472,7 +472,7 @@
       <div
         class="flex flex-col lg:flex-row justify-center items-center lg:space-x-30"
       >
-        <div class="relative lg:mr-[89px] mr-8 lg:mt-[103px] ">
+        <div class="relative lg:mr-[89px] mr-8 lg:mt-[103px] mt-12">
           <!-- <div class="absolute bg-blue-300 blur-[70px] z-0 opacity-80  w-96 h-[500px] rounded-full top-[100px] left-[200px]"></div> -->
           <!-- <img src="/src/assets/light-blue-globe.png" alt="" class="absolute top-[80px] z-0"> -->
           <img
@@ -482,17 +482,17 @@
           />
         </div>
         <div
-          class="lg:mt-[168px] lg:p-0 p-2 flex flex-col justify-center items-center lg:grid"
+          class="lg:mt-[168px] mt-12 lg:p-0 p-2 flex flex-col justify-center items-center lg:grid"
         >
           <h2 class="text-2xl font-bold lg:text-[18px]">Our product</h2>
           <h1
-            class="lg:text-[45px] text-[5xl] font-extrabold text-custom-blue-2 lg:mt-[35px] mt-6"
+            class="lg:text-[45px] text-5xl font-extrabold text-custom-blue-2 lg:mt-[35px] mt-6"
           >
             Bizwiz Features
           </h1>
 
           <p
-            class="text-center lg:text-left lg:text-[24px] text-xl lg:mt-[35px] lg:pt-0 pt-6 lg:pb-0 lg:mb-[35px] pb-8 lg:leading-[139%] max-w-[550px] lg:max-w-[420px]"
+            class="text-center lg:text-left lg:text-[24px] text-[17px] lg:mt-[35px] lg:pt-0 pt-6 lg:pb-0 lg:mb-[35px]  lg:leading-[139%] max-w-[550px] lg:max-w-[420px]"
           >
             With <strong> Bizwiz</strong>, you'll benefit from a one- stop
             commerce platform that gives you innovative tools that will improve
@@ -500,7 +500,7 @@
           </p>
           <a
             href="#"
-            class="text-custom-blue lg:text-[14px] p-4 lg:pt-4 lg:pr-4 lg:pd-4 lg:pl-1 font-semibold flex lg:hover:border-b-4 lg:hover:border-l-4 lg:hover:shadow hover:rounded-full hover: transition w-full justify-between max-w-[440px] lg:max-w-[1000px]"
+            class="text-custom-blue lg:text-[14px] text-[12px] p-4 lg:pt-4 lg:pr-4 lg:pd-4 lg:pl-1 font-semibold flex lg:hover:border-b-4 lg:hover:border-l-4 lg:hover:shadow hover:rounded-full hover: transition w-3/6 lg:w-full justify-between max-w-[440px] lg:max-w-[1000px]"
             >learn more about POS hardware
             <!-- <span class="text-blue-400">
             <svg width="20" height="24" viewBox="0 0 20 24" fill="current" xmlns="http://www.w3.org/2000/svg">
@@ -508,7 +508,7 @@
             </svg>
           </span> -->
             <img
-              class="lg:h-4 w-auto h-5 lg:mt-1.5"
+              class="lg:h-4 lg:w-auto h-4 w-auto lg:mt-1.5"
               src="/public/vector.png"
               alt="arrow-icon"
             />
@@ -517,19 +517,19 @@
       </div>
     </main>
 
-    <main class="flex flex-col justify-center items-center lg:mt-0 mt-14">
+    <main class="flex flex-col justify-center items-center lg:mt-0">
       <div>
         <img
           src="/src/assets/business-structurex2.png"
           alt=""
-          class="lg:w-[1150px] w-[600px] h-auto m-6 mt-[105px] mb-[28px]"
+          class="lg:w-[1150px] w-[600px] h-auto lg:mt-[105px] lg:mb-[28px] mt-16 mb-8"
         />
       </div>
 
-      <div class="text-center">
-        <h1 class="font-bold text-[18px] lg:text-[18px]">Sales & Distribution</h1>
+      <div class="text-center ">
+        <h1 class="font-bold text-[16px] lg:text-[18px]">Sales & Distribution</h1>
         <p
-          class="lg:text-[24px] text-xl lg:mt-[28px] mt-4 tracking-wide lg:leading-[139%]"
+          class="lg:text-[24px] text-[20px] lg:mt-[28px] mt-4 lg:tracking-wide lg:leading-[139%]"
         >
           With <strong> Bizwiz</strong> you'll benefit from a one-stop commerce
           platform that<br />
@@ -545,13 +545,13 @@
   <article>
     <div class="flex lg:flex-row flex-col justify-center items-center">
       <section
-        class="bg-purple bg-cover bg-center text-white flex lg:flex-row flex-col justify-center items-center lg:mt-[236px] mt-36 rounded-3xl p-2 lg:m-0 m-8"
+        class="bg-purple bg-cover bg-center text-white flex lg:flex-row flex-col justify-center items-center lg:mt-[236px] mt-32 rounded-3xl p-2 lg:m-0 m-8"
       >
-        <div>
+        <div class="">
           <img
             src="/src/assets/woman-in-blue.png"
             alt="woman"
-            class="lg:h-auto lg:w-full"
+            class="lg:h-auto lg:w-full "
           />
         </div>
 
@@ -563,7 +563,7 @@
             your growth journey.
           </p>
           <p
-            class="text-center lg:text-left lg:text-[22px] font-light text-xl leading-[1.4] lg:mt-[25px] mt-12 lg:max-w-[560px] max-w-[500px]"
+            class="text-center lg:text-left lg:text-[22px] font-light text-[17px] leading-[1.4] lg:mt-[25px] mt-8 lg:max-w-[560px] max-w-[500px]"
           >
             Whether you’re a micro, small, medium or large enterprise,
             <strong class="font-bold">Bizwiz</strong> has the tools for you to
@@ -577,18 +577,18 @@
         </div>
       </section>
     </div>
-    <div class="lg:m-0 lg:mt-[51px] m-8 flex flex-col justify-center items-center lg:mb-[58px]">
-      <h1 class="font-bold lg:text-[18px] text-[23px] lg:mb-0 mb-4">
+    <div class="lg:m-0 lg:mt-[51px] m-8 mt-16 flex flex-col justify-center items-center lg:mb-[58px]">
+      <h1 class="font-bold lg:text-[18px] text-[23px] lg:mb-0 mb-3">
         Our Benefits
       </h1>
       <p
-        class="text-center lg:text-[45px] text-5xl text-custom-blue-2 font-[800] lg:mb-0 mb-6 lg:mt-[21px] lg:leading-[100%] leading-[50px] lg:max-w-[600px] max-w-[500px]"
+        class="text-center lg:text-[45px] text-5xl text-custom-blue-2 font-[800] lg:mb-0 mb-4 lg:mt-[21px] lg:leading-[100%] leading-[50px] lg:max-w-[600px] max-w-[500px]"
       >
         Level up Your Business With Bizwiz
       </p>
-      <img src="/public/line.png" alt="line" class="w-36 h-0.2 lg:mt-[21px]" />
+      <img src="/public/line.png" alt="line" class="w-36 h-0.2 lg:mt-[21px] " />
       <p
-        class="text-center lg:text-[24px] text-xl lg:leading-[139%] leading-[35px] lg:mt-[21px] mt-6 lg:max-w-[750px]"
+        class="text-center lg:text-[24px] text-[18px] lg:leading-[139%] leading-[35px] lg:mt-[21px] mt-4 lg:max-w-[750px]"
       >
         With <strong>Bizwiz,</strong> you'll benefit from a one-stop commerce
         platform that gives you innovative tools that will improve your
@@ -597,24 +597,24 @@
     </div>
 
     <section class="flex lg:flex-row flex-col justify-center items-center gap-6">
-      <div class="border rounded-3xl m-4 p-5 lg:m-0 lg:p-0 lg:min-w-[330px]">
-        <img src="/public/laptop-icon.png" alt="" class="w-20 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] max-w-[480px]">
+        <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
-          class="text-3xl font-medium lg:mt-[26px] mt-6 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
+          class="text-[24px] font-medium lg:mt-[26px] mt-2 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
         >
           Reduced Operating Costs
         </h2>
 
         <p
-          class="lg:text-[16px] lg:mt-[26px] mt-8 mb-8 lg:mb-[26px] text-xl font-light lg:max-w-[300px] max-w-[500px] lg:ml-[16px]"
+          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[26px] text-[15px] font-light lg:max-w-[300px] max-w-[500px] lg:ml-[16px]"
         >
           Empower your suppliers with our instuitive portal, simplifying comms,
           streamlining orders, and fostering stronger partnerships.
         </p>
 
         <button
-          class="text-custom-blue-4 lg:text-[14px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
+          class="text-custom-blue-4 lg:text-[14px] text-[13px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
         >
           <span class="">Learn More</span>
 
@@ -639,23 +639,23 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl m-4 p-5 lg:m-0 lg:p-0 lg:min-w-[330px]">
-        <img src="/public/laptop-icon.png" alt="" class="w-20 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px]">
+        <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
-          class="text-3xl font-medium lg:mt-[26px] mt-6 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
+          class="text-[24px] font-medium lg:mt-[26px] mt-2 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
         >
           Streamlined Supply Chain Processes
         </h2>
 
         <p
-          class="lg:text-[16px] lg:mt-[26px] mt-8 mb-8 lg:mb-[82px] text-xl font-light lg:max-w-[250px] max-w-[500px] lg:ml-[16px]"
+          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[82px] text-[15px] font-light lg:max-w-[250px] max-w-[500px] lg:ml-[16px]"
         >
           Empower your suppliers with our intuitive portal, simplifying comms.
         </p>
 
         <button
-          class="text-custom-blue-4 lg:text-[14px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
+          class="text-custom-blue-4 lg:text-[14px] text-[13px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
         >
           <span class="">Learn More</span>
 
@@ -678,23 +678,23 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl m-4 p-5 lg:m-0 lg:p-0 lg:min-w-[330px]">
-        <img src="/public/laptop-icon.png" alt="" class="w-20 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px]">
+        <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
-          class="text-3xl font-medium lg:mt-[26px] mt-6 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
+          class="text-[24px] font-medium lg:mt-[26px] mt-2 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
         >
          Optimized Inventory Management
         </h2>
 
         <p
-          class="lg:text-[16px] lg:mt-[26px] mt-8 mb-8 lg:mb-[82px] text-xl font-light lg:max-w-[250px] max-w-[500px] lg:ml-[16px]"
+          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[82px] text-[15px] font-light lg:max-w-[250px] max-w-[500px] lg:ml-[16px]"
         >
           Empower your suppliers with our intuitive portal, simplifying comms.
         </p>
 
         <button
-          class="text-custom-blue-4 lg:text-[14px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:p-0 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:m-0 lg:mb-[16px]"
+          class="text-custom-blue-4 lg:text-[14px] text-[13px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:p-0 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:m-0 lg:mb-[16px]"
         >
           <span class="">Learn More</span>
           <div class="lg:mr-2">
@@ -720,23 +720,23 @@
     </section>
 
     <section class="flex lg:flex-row flex-col justify-center items-center gap-6 lg:mt-[22px]">
-      <div class="border rounded-3xl m-4 p-5 lg:m-0 lg:p-0 lg:min-w-[330px]">
-        <img src="/public/laptop-icon.png" alt="" class="w-20 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px]">
+        <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
-          class="text-3xl font-medium lg:mt-[26px] mt-6 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
+          class="text-[24px] font-medium lg:mt-[26px] mt-2 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
         >
           Simplified Sales Processes
         </h2>
 
         <p
-          class="lg:text-[16px] lg:mt-[26px] mt-8 mb-8 lg:mb-[82px] text-xl font-light lg:max-w-[260px] max-w-[500px] lg:ml-[16px]"
+          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[82px] text-[15px] font-light lg:max-w-[260px] max-w-[500px] lg:ml-[16px]"
         >
           Empower your suppliers with our intuitive portal, simplifying comms.
         </p>
 
         <button
-          class="text-custom-blue-4 lg:text-[14px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
+          class="text-custom-blue-4 lg:text-[14px] text-[13px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
         >
           <span class="">Learn More</span>
 
@@ -759,23 +759,23 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl m-4 p-5 lg:m-0 lg:p-0 lg:min-w-[330px]">
-        <img src="/public/laptop-icon.png" alt="" class="w-20 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] max-w-[480px]">
+        <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
-          class="text-3xl font-medium lg:mt-[26px] mt-6 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
+          class="text-[24px] font-medium lg:mt-[26px] mt-2 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
         >
           Improved Business Performance
         </h2>
 
         <p
-          class="lg:text-[16px] lg:mt-[26px] mt-8 mb-8 lg:mb-[82px] text-xl font-light lg:max-w-[260px] max-w-[500px] lg:ml-[16px]"
+          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[82px] text-15px font-light lg:max-w-[260px] max-w-[500px] lg:ml-[16px]"
         >
           Empower your suppliers with our intuitive portal, simplifying comms.
         </p>
 
         <button
-          class="text-custom-blue-4 lg:text-[14px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
+          class="text-custom-blue-4 lg:text-[14px] text-[13px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
         >
           <span class="">Learn More</span>
 
@@ -798,23 +798,23 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl m-4 p-5 lg:m-0 lg:p-0 lg:min-w-[330px]">
-        <img src="/public/laptop-icon.png" alt="" class="w-20 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] max-w-[480px]">
+        <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
-          class="text-3xl font-medium lg:mt-[26px] mt-6 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
+          class="text-[24px] font-medium lg:mt-[26px] mt-2 lg:max-w-[200px] lg:text-[22px] lg:ml-[16px] tracking-tight"
         >
           Improved Reporting Accuracy
         </h2>
 
         <p
-          class="lg:text-[16px] lg:mt-[26px] mt-8 mb-8 lg:mb-[82px] text-xl font-light lg:max-w-[260px] max-w-[500px] lg:ml-[16px]"
+          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[82px] text-[15px]font-light lg:max-w-[260px] max-w-[500px] lg:ml-[16px]"
         >
           Empower your suppliers with our intuitive portal, simplifying comms.
         </p>
 
         <button
-          class="text-custom-blue-4 lg:text-[14px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
+          class="text-custom-blue-4 lg:text-[14px] text-[13px] font-medium flex justify-between lg:hover:bg-custom-blue-3 rounded-full p-3 lg:py-2 lg:pl-1  w-full lg:w-11/12 lg:hover:text-white lg:ml-[16px] lg:mb-[16px]"
         >
           <span class="">Learn More</span>
 
@@ -843,7 +843,7 @@
 
   <article>
     <main
-      class="bg-blend text-white lg:h-[1030px] h-full bg-cover bg-center z-0 lg:mt-96 mt-72"
+      class="bg-blend text-white lg:h-[1030px] h-[192vh] bg-cover bg-center z-0 lg:mt-96 mt-72 "
     >
       <!-- floating section (header) -->
 
@@ -852,13 +852,13 @@
           class="bg-blue-3 bg-cover bg-center border-b border-l lg:w-[1200px] lg:h-[610px] flex lg:flex-row flex-col text-white rounded-3xl lg:-translate-y-[290px] -translate-y-[200px] lg:m-0 m-4"
         >
           <div class="lg:p-0 p-8 lg:mt-[59px] lg:translate-x-16 lg:ml-[30px]">
-            <h1 class="font-bold lg:text-[18px] text-xl lg:pt-4">Our product </h1>
+            <h1 class="font-bold lg:text-[18px] text-[17px] lg:pt-4"> Our product </h1>
             <p
-              class="text-[45px] font-bold lg:mt-4 mt-4 leading-[47px] lg:max-w-[400px] lg:text-[32px] tracking-tight lg:leading-[119%]"
+              class="text-[30px] font-bold lg:mt-4 mt-4 leading-[37px] lg:max-w-[400px] lg:text-[32px] tracking-tight lg:leading-[119%]"
             >
               Here's a message from some of our clients.
             </p>
-            <p class="mt-5 lg:text-[17px] font-[400] text-xl lg:max-w-[400px]">
+            <p class="mt-5 lg:text-[17px] font-[400] text-[16px] lg:max-w-[400px]">
               It's helped us better track our sales, manage our inventory and
               improve our customer service.
             </p>
@@ -866,17 +866,17 @@
             <fieldset
               class="bg-yellow-400 text-black mt-8 rounded-xl lg:p-0 p-4 lg:pr-[64px] lg:pl-[32px] lg:pb-[32px]"
             >
-              <h1 class="lg:text-[24px] text-2xl font-bold mt-2 lg:mt-[32px]">
+              <h1 class="lg:text-[24px] text-[22px] font-bold mt-2 lg:mt-[32px] leading-[129%]">
                 Prime Mattresses ltd - Nakuru
               </h1>
               <p
-                class="lg:text-[18px] text-xl font-[400] lg:mt-[21px] mt-4 lg:max-w-[340px] max-w-[500px]"
+                class="lg:text-[18px] text-[16px] font-[400] lg:mt-[21px] mt-4 lg:max-w-[340px] max-w-[500px]"
               >
                 It's helped us better track our sales, manage our inventory, and
                 improve our customer service.
               </p>
               <i class="text-5xl text-white leading-[60%]">
-                <span class="text-black">.</span>...........</i
+                <span class="text-black">.</span>.......</i
               >
             </fieldset>
           </div>
@@ -893,11 +893,11 @@
 
       <!-- footer -->
 
-      <div class="lg:-translate-y-96 -translate-y-[100px]">
+      <div class="lg:-translate-y-96 -translate-y-[150px] lg:pt-40">
         <section
-          class="flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-center items-cente lg:pt-40 space-x-20"
+          class="flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-center items-cente lg:pt-40 space-x-16"
         >
-          <div class="bg-custom-black lg:p-[30px] p-6 rounded-xl lg:m-0 m-8 h-full">
+          <div class="bg-custom-black lg:p-[30px] p-6 rounded-xl lg:m-0 ml-8 mr-8 mb-8 h-full">
             <figure class="flex">
               <img src="/public/r-icon.png" alt="" class="lg:w-12 h-auto w-8" />
               <h1 class="lg:text-[35px] text-2xl pl-2 lg:pt-3 font-bold">
@@ -906,23 +906,23 @@
             </figure>
 
             <p
-              class="mt-8 mb-8 lg:mt-[30px] lg:mb-[30px] leading-[30px] lg:leading-[25px] lg:text-[13px] font-light lg:max-w-[250px] max-w-[500px]"
+              class="mt-4 mb-8 lg:mt-[30px] lg:mb-[30px] leading-[25px] lg:leading-[25px] text-[13px] lg:text-[13px] font-light lg:max-w-[250px] max-w-[500px]"
             >
               Whether you're a micro, small, medium or large enterprise Bizwiz
               has the tools for you to sclae up and archive maximum profit.
             </p>
 
-            <h2 class="font-bold lg:text-[11px]">Email Address</h2>
+            <h2 class="font-bold lg:text-[11px] text-[12px]">Email Address</h2>
             <input
               type="text"
               placeholder="sanjeevk@gmail.com"
-              class="border rounded-full p-3 lg:p-1 lg:pl-2 w-full lg:mb-[14px] lg:text-[12px] mb-4 mt-2 bg-transparent max-w-[500px]"
+              class="border rounded-full p-1 pl-2 lg:p-1 lg:pl-2 w-full lg:mb-[14px] lg:text-[12px] text-[11px] mb-2 mt-2 bg-transparent max-w-[500px]"
             />
 
             <button
-              class="bg-[#115c99] lg:text-[12px] flex rounded-full lg:py-[9px] lg:px-[30px] p-2 pl-8 lg:mb-[30px] mb-6"
+              class="bg-[#115c99] lg:text-[12px] text-[12px] flex rounded-full lg:py-[9px] py-2 lg:px-[30px] px-4 lg:mb-[30px] mb-4"
             >
-              <span class="lg:pr-1">Book a Demo</span>
+              <span class="lg:pr-1 ">Book a Demo</span>
               <!-- <svg
                 width="20"
                 height="24"
@@ -942,7 +942,7 @@
               <img src="/public/arrow_right.png" alt="arrow" />
             </button>
 
-            <P class="font-medium lg:text-[14px]"
+            <P class="font-medium lg:text-[14px] text-[14px]"
               >Find us at:<br />
               <em class="font-thin">13 Lavington, Jacaranda Avenue</em>
             </P>
@@ -951,10 +951,10 @@
           <div class="">
             <h1 class="font-bold lg:text-[20px] text-xl">Main</h1>
             <p
-              class="lg:leading-[250%] leading-[30px] lg:text-[15px] text-sm font-light lg:mt-[30px] mt-4"
+              class="lg:leading-[250%] leading-[30px] lg:text-[15px] text-[13px] font-[400] lg:mt-[30px] mt-4"
             >
               Home<br />About<br />Blog<br />Carrer<br />Pricing<br />Integration<br />
-              Book Demo<br />Privacy Policy<br />Terms of Service
+              Book Demo<br />Privacy Policy<br />Terms & conditions
             </p>
           </div>
 
@@ -964,7 +964,7 @@
               Solutions
             </h1>
             <p
-              class="lg:leading-[250%] leading-[30px] lg:text-[15px] text-sm font-light lg:mt-[30px] mt-4"
+              class="lg:leading-[250%] leading-[30px] lg:text-[15px] text-[13px] font-[400] lg:mt-[30px] mt-4"
             >
               ERP<br />POS<br />Suppliers portal<br />Mobile Application<br />Bizwiz
               cloud<br />
@@ -973,17 +973,17 @@
 
           <div class="">
             <h1 class="font-bold lg:text-[20px] text-xl">Our Contacts</h1>
-            <p class="lg:text-[15px] lg:mt-[19px] mt-4 font-light">
+            <p class="lg:text-[15px] text-[14px] lg:mt-[19px] mt-4 font-[400]">
               Contact our technical support <br />team<br />
               <span class="text-yellow-200">support@retailpay.africa</span>
             </p>
 
-            <p class="lg:text-[15px] lg:mt-[19px] mt-4 font-light">
+            <p class="lg:text-[15px] text-[14px] lg:mt-[19px] mt-4 font-[400]">
               Submit your enquiries to<br />
               <span class="text-yellow-200">info@retailpay.africa</span>
             </p>
 
-            <p class="lg:mb-[145px] mb-20 lg:text-[15px] mt-8 lg:mt-[19px] font-light">
+            <p class="lg:mb-[145px] mb-20 lg:text-[15px] text-[14px] mt-8 lg:mt-[19px] font-[400]">
               Talk to us on<br />
               +254 790 345260
             </p>
