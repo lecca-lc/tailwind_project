@@ -66,7 +66,7 @@
         <div
           class="hidden lg:grid items-center lg:col-span-8 lg:pt-2 lg:mx-auto"
         >
-          <ul class="flex space-x-7 text-[12px] lg:mb-2 font-[500]">
+          <ul class="flex space-x-7 font-inter text-[12px] lg:mb-2 font-[500]">
             <li>
               <a
                 href="home"
@@ -139,7 +139,7 @@
         <!-- Buttons -->
         <div class="hidden space-x-20 lg:col-span-6 lg:flex">
           <button
-            class="bg-custom-blue-3 text-white rounded-full px-6 py-2 hover:bg-purple-400 lg:text-[12px] lg:px-[25px] lg:py-[9px] lg:h-10 lg:mt-3 font-[800]"
+            class="bg-custom-blue-3 font-inter text-white rounded-full px-6 py-2 hover:bg-purple-400 lg:text-[12px] lg:px-[25px] lg:py-[9px] lg:h-10 lg:mt-3 font-[800]"
           >
             Book a Demo
           </button>
@@ -194,7 +194,7 @@
     <div class="lg:h-32 h-12"></div>
 
     <div
-      class="text-center lg:text-[60px] text-[43px] lg:leading-[116%] leading-[50px] mt-[47px] font-[800] font-sans tracking-normal"
+      class="text-center  lg:text-[60px] text-[25px] lg:leading-[116%] leading-[35px] mt-[47px] font-[800] font-sans tracking-normal"
     >
       <p>
         Forging the Future <br />
@@ -205,7 +205,7 @@
 
     <div class="flex flex-col items-center justify-center">
       <p
-        class="lg:max-w-[700px] text-center mt-[30px] lg:text-[21px] text-[17px] lg:leading-[132%] font-[300]"
+        class="lg:max-w-[700px] text-center mt-[30px] lg:text-[21px] text-[14px] lg:leading-[132%] font-[300]"
       >
         RetailPay provides a digital end-to-end platform that connects all
         members of the supply chain ecosystem for maximum value
@@ -222,7 +222,7 @@
         class="border flex lg:flex-row items-center lg:mt-[78px] rounded-t-3xl lg:max-w-[1400px] backdrop-blur-sm bg-blue-2 bg-cover bg-center border-white/80 lg:mx-0 mx-5 mt-14 flex-col"
       >
         <div
-          class="text-white lg:text-[33px] lg:leading-[53px] font-[300] lg:p-0 pl-0 lg:pt-0 pt-4 text-[21px] w-[55%] lg:w-[40%] leading-[132%] lg:mt-[136px] lg:mb-[128px] lg:translate-x-32 "
+          class="text-white lg:text-[33px] lg:leading-[53px] font-[300] lg:p-0 pl-0 lg:pt-0 pt-4 text-[17px] w-[55%] lg:w-[40%] leading-[132%] lg:mt-[136px] lg:mb-[128px] lg:translate-x-32 "
         >
           <p class="text-center lg:text-left lg:min-w-[490px] ">
             Our product, <strong class="font-[600]">Bizwiz</strong> is a
@@ -249,37 +249,35 @@
   <!-- Second section -->
 
   <article>
-    <section class="flex justify-center items-center">
+    <section class="flex justify-center ">
       <div
         class="lg:border-2 lg:shadow-lg flex lg:flex-row flex-col justify-center items-center lg:space-x-56 rounded-b-3xl lg:p-8 p-4 lg:min-w-[1400px]"
       >
-        <p class="lg:leading-[50px] text-center lg:mb-0 mb-4">
+        <p class="lg:leading-[50px] leading-[30px] text-center lg:mb-0 mb-4">
           <span
-            class="lg:text-[60px] text-[55px] font-bold text-custom-blue-2 "
+            class="lg:text-[60px] text-[45px] font-bold text-custom-blue-2 "
             >100K+</span
           ><br />
           <code
-            class="text-custom-blue-2 lg:text-[20px] text-[17px] "
-            >Clients</code
-          >
+            class="text-custom-blue-2 lg:text-[20px] text-[14px] "
+            >Clients
+            </code>
         </p>
-        <p class="lg:leading-[50px] text-center pb-4 lg:pb-0">
+        <p class="lg:leading-[50px] leading-[30px] text-center pb-4 lg:pb-0">
           <span
-            class="lg:text-[60px] text-[55px] font-bold text-custom-blue-2 "
-            >40M + USD</span
-          ><br />
+            class="lg:text-[60px] text-[45px] font-bold text-custom-blue-2 "
+            >40M + USD</span><br />
           <code
-            class="text-custom-blue-2 lg:text-[20px] text-[17px]  "
-            >Turnover per month</code
-          >
+            class="text-custom-blue-2 lg:text-[20px] text-[14px]  "
+            >Turnover per month</code>
         </p>
-        <p class="lg:leading-[50px] text-center ">
+        <p class="lg:leading-[50px] leading-[30px] text-center ">
           <span
-            class="lg:text-[60px] text-[55px] font-bold text-custom-blue-2 "
+            class="lg:text-[60px] text-[45px] font-bold text-custom-blue-2 "
             >15+</span
           ><br />
           <code
-            class="text-custom-blue-2 lg:text-[20px] text-[17px]"
+            class="text-custom-blue-2 lg:text-[20px] text-[14px]"
             >Counties</code
           >
         </p>
@@ -287,16 +285,16 @@
     </section>
 
     <div
-      class="flex lg:flex-row flex-col lg:p-0 lg:mb-[55px] mb-16 p-4 lg:mt-[103px] mt-8 lg:ml-[380px] text-center lg:text-left "
+      class="flex lg:flex-row justify-center items-center mx-auto w-full flex-col lg:p-0 lg:mb-[55px] mb-16 p-4 lg:mt-[103px] mt-8 text-center lg:text-left "
     >
       <p
-        class="lg:max-w-[450px] lg:text-[45px] text-[28px] font-[600] lg:mb-0 mb-4 lg:leading-[106%] lg:tracking-tight"
+        class="lg:max-w-[450px] lg:text-[45px] text-[28px] font-[600] lg:mb-0 mb-4 lg:leading-[106%] leading-[40px] lg:tracking-tight"
       >
         Why is RetailPay is the best tool for you.
       </p>
 
       <p
-        class="lg:max-w-[400px] max-w-[620px] lg:text-[24px] text-[17px] tracking-[1px] leading-[40px] lg:leading-[139%] font-[400] lg:ml-[117px]"
+        class="lg:max-w-[400px] max-w-[620px] lg:text-[24px] text-[17px] tracking-[1px] leading-[30px] lg:leading-[139%] font-[400] lg:ml-[117px] "
       >
         The RetailPay <strong>Bizwiz</strong> Suite comprises of multiple
         software organs that assist businesses in their day-to-day functions.
@@ -317,7 +315,7 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0">Bizwiz ERP</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 text-[14px] lg:text-[14px] font-[400] lg:mr-[36px]"
+          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 text-[12px] lg:text-[14px] font-[400] lg:mr-[36px]"
         >
           Streamline your operations and boost productivity with our intuitive
           ERP system, tailored for distributors, wholesalers and reatilers
@@ -357,7 +355,7 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0">Bizwiz POS</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] text-[14px] font-[400] lg:mr-[36px]"
+          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] text-[12px] font-[400] lg:mr-[36px]"
         >
           Transform your retail experience with our sleek and efficient POS system, designed to streamline transactions and enhance customer interactions.
         </p>
@@ -396,7 +394,7 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0">Bizwiz Supplier Portal</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] text-[14px] font-[400] lg:mr-[36px]"
+          class="max-w-[1000px] lg:max-w-[240px] lg:mt-[30px] lg:p-0 pt-4 lg:text-[14px] text-[12px] font-[400] lg:mr-[36px]"
         >
           Empower your suppliers with our intuitive portal, simplifying communication, streamlining orders, and fostering stronger partnerships.
         </p>
@@ -425,7 +423,7 @@
       </div>
 
       <div
-        class="border bg-custom-blue-1 rounded-xl p-4 lg:p-0 shadow-2xl lg:m-0 m-3 max-w-[700px] lg:pl-[16px] "
+        class="border bg-custom-blue-1 rounded-xl p-4 lg:p-0 shadow-2xl lg:m-0 m-3 max-w-[700px] lg:pl-[16px] lg:max-w-[300px]"
       >
         <img
           src="/public/shield-icon.png"
@@ -435,7 +433,7 @@
 
         <h1 class="font-bold lg:text-[24px] text-xl pt-4 lg:pt-0 lg:max-w-[300px]">Bizwiz Order-taking Delivery App</h1>
         <p
-          class="max-w-[1000px] lg:max-w-[270px] lg:mt-[26px] lg:p-0 pt-4 lg:text-[14px] text-[14px] font-[400] lg:mr-[30px]"
+          class="max-w-[1000px] lg:max-w-[270px] lg:mt-[26px] lg:p-0 pt-4 lg:text-[14px] text-[12px] font-[400] lg:mr-[30px]"
         >
           Elevate your distribution business with our user-friendly app, empowering you to manage orders, track inventory, and optimise logistics with ease.
         </p>
@@ -486,13 +484,13 @@
         >
           <h2 class="text-2xl font-bold lg:text-[18px]">Our product</h2>
           <h1
-            class="lg:text-[45px] text-5xl font-extrabold text-custom-blue-2 lg:mt-[35px] mt-6"
+            class="lg:text-[45px] text-4xl font-extrabold text-custom-blue-2 lg:mt-[35px] mt-3"
           >
             Bizwiz Features
           </h1>
 
           <p
-            class="text-center lg:text-left lg:text-[24px] text-[17px] lg:mt-[35px] lg:pt-0 pt-6 lg:pb-0 lg:mb-[35px]  lg:leading-[139%] max-w-[550px] lg:max-w-[420px]"
+            class="text-center lg:text-left mx-auto lg:w-full w-11/12 lg:text-[24px] text-[17px] lg:mt-[35px] lg:pt-0 pt-6 lg:pb-0 lg:mb-[35px] lg:leading-[139%] max-w-[550px] lg:max-w-[420px]"
           >
             With <strong> Bizwiz</strong>, you'll benefit from a one- stop
             commerce platform that gives you innovative tools that will improve
@@ -500,15 +498,16 @@
           </p>
           <a
             href="#"
-            class="text-custom-blue lg:text-[14px] text-[12px] p-4 lg:pt-4 lg:pr-4 lg:pd-4 lg:pl-1 font-semibold flex lg:hover:border-b-4 lg:hover:border-l-4 lg:hover:shadow hover:rounded-full hover: transition w-3/6 lg:w-full justify-between max-w-[440px] lg:max-w-[1000px]"
-            >learn more about POS hardware
+            class="text-custom-blue lg:text-[14px] text-[12px] p-4 lg:pt-4 lg:pr-4 lg:pd-4 lg:pl-1 font-semibold flex hover:underline underline-offset-4 transition-all duration-200 w-4/6 lg:w-full justify-between min-w-[250px] lg:max-w-[1000px]"
+            >
+            learn more about POS hardware
             <!-- <span class="text-blue-400">
             <svg width="20" height="24" viewBox="0 0 20 24" fill="current" xmlns="http://www.w3.org/2000/svg">
             <path d="M7.63281 18L12.3875 12L7.63281 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </span> -->
             <img
-              class="lg:h-4 lg:w-auto h-4 w-auto lg:mt-1.5"
+              class="lg:h-4 lg:w-auto h-4 w-auto "
               src="/public/vector.png"
               alt="arrow-icon"
             />
@@ -522,14 +521,14 @@
         <img
           src="/src/assets/business-structurex2.png"
           alt=""
-          class="lg:w-[1150px] w-[600px] h-auto lg:mt-[105px] lg:mb-[28px] mt-16 mb-8"
+          class="lg:w-[1150px] w-[350px] h-auto lg:mt-[105px] lg:mb-[28px] mt-16 mb-8 "
         />
       </div>
 
-      <div class="text-center ">
-        <h1 class="font-bold text-[16px] lg:text-[18px]">Sales & Distribution</h1>
+      <div class="text-center mx-auto w-11/12 lg:w-full ">
+        <h1 class="font-bold text-[14px] lg:text-[18px] ">Sales & Distribution</h1>
         <p
-          class="lg:text-[24px] text-[20px] lg:mt-[28px] mt-4 lg:tracking-wide lg:leading-[139%]"
+          class="lg:text-[24px] text-[17px] lg:mt-[28px] mt-4 lg:tracking-wide lg:leading-[139%]"
         >
           With <strong> Bizwiz</strong> you'll benefit from a one-stop commerce
           platform that<br />
@@ -557,13 +556,13 @@
 
         <div class="flex lg:grid flex-col lg:pr-[73px]">
           <p
-            class="text-center lg:text-left max-w-[500px] font-bold lg:text-[54px] text-5xl tracking-tight lg:max-w-[800px] lg:pt-0 pt-8"
+            class="text-center lg:text-left max-w-[500px] font-bold lg:text-[54px] text-3xl tracking-tight lg:max-w-[800px] lg:pt-0 pt-8"
           >
             Let us be part of<br />
             your growth journey.
           </p>
           <p
-            class="text-center lg:text-left lg:text-[22px] font-light text-[17px] leading-[1.4] lg:mt-[25px] mt-8 lg:max-w-[560px] max-w-[500px]"
+            class="text-center lg:text-left lg:text-[22px] font-light text-[14px] leading-[1.4] lg:mt-[25px] mt-8 lg:max-w-[560px] max-w-[500px]"
           >
             Whether you’re a micro, small, medium or large enterprise,
             <strong class="font-bold">Bizwiz</strong> has the tools for you to
@@ -578,17 +577,17 @@
       </section>
     </div>
     <div class="lg:m-0 lg:mt-[51px] m-8 mt-16 flex flex-col justify-center items-center lg:mb-[58px]">
-      <h1 class="font-bold lg:text-[18px] text-[23px] lg:mb-0 mb-3">
+      <h1 class="font-bold lg:text-[18px] text-[20px] lg:mb-0 mb-3">
         Our Benefits
       </h1>
       <p
-        class="text-center lg:text-[45px] text-5xl text-custom-blue-2 font-[800] lg:mb-0 mb-4 lg:mt-[21px] lg:leading-[100%] leading-[50px] lg:max-w-[600px] max-w-[500px]"
+        class="text-center lg:text-[45px] text-4xl text-custom-blue-2 font-[800] lg:mb-0 mb-4 lg:mt-[21px] lg:leading-[100%] leading-[40px] lg:max-w-[600px] max-w-[500px]"
       >
         Level up Your Business With Bizwiz
       </p>
       <img src="/public/line.png" alt="line" class="w-36 h-0.2 lg:mt-[21px] " />
       <p
-        class="text-center lg:text-[24px] text-[18px] lg:leading-[139%] leading-[35px] lg:mt-[21px] mt-4 lg:max-w-[750px]"
+        class="text-center lg:text-[24px] text-[16px] lg:leading-[139%] leading-[35px] lg:mt-[21px] mt-4 lg:max-w-[750px]"
       >
         With <strong>Bizwiz,</strong> you'll benefit from a one-stop commerce
         platform that gives you innovative tools that will improve your
@@ -597,7 +596,7 @@
     </div>
 
     <section class="flex lg:flex-row flex-col justify-center items-center gap-6">
-      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] max-w-[480px]">
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] lg:max-w-[330px] mx-auto w-11/12 ">
         <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
@@ -607,7 +606,7 @@
         </h2>
 
         <p
-          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[26px] text-[15px] font-light lg:max-w-[300px] max-w-[500px] lg:ml-[16px]"
+          class="lg:text-[16px] lg:mt-[26px] mt-5 mb-8 lg:mb-[26px] text-[14px] font-light lg:max-w-[300px] max-w-[500px] lg:ml-[16px]"
         >
           Empower your suppliers with our instuitive portal, simplifying comms,
           streamlining orders, and fostering stronger partnerships.
@@ -639,7 +638,7 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px]">
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] lg:max-w-[330px] mx-auto w-11/12 ">
         <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
@@ -678,7 +677,7 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px]">
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] lg:max-w-[330px] mx-auto w-11/12 ">
         <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
@@ -720,7 +719,7 @@
     </section>
 
     <section class="flex lg:flex-row flex-col justify-center items-center gap-6 lg:mt-[22px]">
-      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px]">
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] lg:max-w-[330px] mx-auto w-11/12 ">
         <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
@@ -759,7 +758,7 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] max-w-[480px]">
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] lg:max-w-[330px] mx-auto w-11/12 ">
         <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
@@ -798,7 +797,7 @@
         </button>
       </div>
 
-      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] max-w-[480px]">
+      <div class="border rounded-3xl p-3 lg:m-0 lg:p-0 lg:min-w-[330px] lg:max-w-[330px] mx-auto w-11/12 ">
         <img src="/public/laptop-icon.png" alt="" class="w-16 h-auto lg:w-20 lg:ml-[16px] lg:mt-[16px]" />
 
         <h2
@@ -839,38 +838,32 @@
     </section>
   </article>
 
-  <!-- Fifth section -->
+  <!-- floating section (header) -->
 
-  <article>
-    <main
-      class="bg-blend text-white lg:h-[1030px] h-[192vh] bg-cover bg-center z-0 lg:mt-96 mt-72 "
-    >
-      <!-- floating section (header) -->
-
-      <div class="flex items-center justify-center">
+      <div class="relative w-full ">
         <main
-          class="bg-blue-3 bg-cover bg-center border-b border-l lg:w-[1200px] lg:h-[610px] flex lg:flex-row flex-col text-white rounded-3xl lg:-translate-y-[290px] -translate-y-[200px] lg:m-0 m-4"
+          class="bg-blue-3 absolute lg:top-[100px] top-[40px] left-0 right-0 mx-auto bg-cover bg-center border-b border-l w-[90%] lg:max-w-[1200px] lg:h-[610px] flex lg:flex-row flex-col text-white rounded-3xl "
         >
           <div class="lg:p-0 p-8 lg:mt-[59px] lg:translate-x-16 lg:ml-[30px]">
             <h1 class="font-bold lg:text-[18px] text-[17px] lg:pt-4"> Our product </h1>
             <p
-              class="text-[30px] font-bold lg:mt-4 mt-4 leading-[37px] lg:max-w-[400px] lg:text-[32px] tracking-tight lg:leading-[119%]"
+              class="text-[25px] font-bold lg:mt-4 mt-4 leading-[30px] lg:max-w-[400px] lg:text-[32px] tracking-tight lg:leading-[119%]"
             >
               Here's a message from some of our clients.
             </p>
-            <p class="mt-5 lg:text-[17px] font-[400] text-[16px] lg:max-w-[400px]">
+            <p class="mt-5 lg:text-[17px] font-[400] text-[13px] lg:max-w-[400px]">
               It's helped us better track our sales, manage our inventory and
               improve our customer service.
             </p>
 
             <fieldset
-              class="bg-yellow-400 text-black mt-8 rounded-xl lg:p-0 p-4 lg:pr-[64px] lg:pl-[32px] lg:pb-[32px]"
+              class="bg-yellow-400 text-black mt-8 mb-4 rounded-xl lg:p-0 p-4 lg:pr-[64px] lg:pl-[32px] lg:pb-[32px]"
             >
               <h1 class="lg:text-[24px] text-[22px] font-bold mt-2 lg:mt-[32px] leading-[129%]">
                 Prime Mattresses ltd - Nakuru
               </h1>
               <p
-                class="lg:text-[18px] text-[16px] font-[400] lg:mt-[21px] mt-4 lg:max-w-[340px] max-w-[500px]"
+                class="lg:text-[18px] text-[13px] font-[400] lg:mt-[21px] mt-4 lg:max-w-[340px] max-w-[500px]"
               >
                 It's helped us better track our sales, manage our inventory, and
                 improve our customer service.
@@ -891,13 +884,21 @@
         </main>
       </div>
 
+  <!-- Fifth section -->
+
+  <article>
+    <main
+      class="bg-blend text-white  bg-cover bg-center lg:pb-[50px] pb-[50px] lg:pt-[421px] pt-[300px] lg:mt-[350px] mt-[292px]"
+    >
+      
+
       <!-- footer -->
 
-      <div class="lg:-translate-y-96 -translate-y-[150px] lg:pt-40">
+      <div class="">
         <section
-          class="flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-center space-x-16"
+          class="flex lg:flex-row flex-col space-y-8 lg:space-y-0 justify-center lg:space-x-16 ml-6 lg:ml-0"
         >
-          <div class="bg-custom-black lg:p-[30px] p-6 rounded-xl lg:m-0 ml-8 mr-8 mb-8 h-full">
+          <div class="bg-custom-black lg:p-[30px] p-6 rounded-xl lg:m-0 mr-8 mb-8 h-full">
             <figure class="flex">
               <img src="/public/r-icon.png" alt="" class="lg:w-12 h-auto w-8" />
               <h1 class="lg:text-[35px] text-2xl pl-2 lg:pt-3 font-bold">
@@ -951,7 +952,7 @@
           <div class="">
             <h1 class="font-bold lg:text-[20px] text-xl">Main</h1>
             <p
-              class="lg:leading-[250%] leading-[30px] lg:text-[15px] text-[13px] font-[400] lg:mt-[30px] mt-4"
+              class="lg:leading-[250%] leading-[30px] lg:text-[15px] text-[13px] font-[400] lg:mt-[30px] mt-4 "
             >
               Home<br />About<br />Blog<br />Carrer<br />Pricing<br />Integration<br />
               Book Demo<br />Privacy Policy<br />Terms & conditions
